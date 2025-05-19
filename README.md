@@ -30,7 +30,7 @@ This project helps reinforce:
 ## 🛠️ Tech Stack
 
 - HTML5
-- CSS3 / Bootstrap 5 (for styling only)
+- CSS3 
 - JavaScript (no frameworks)
 
 ## 🚀 Getting Started
