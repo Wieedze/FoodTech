@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Food Tech</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="tab-buttons">
+        <button class="tab-button active" data-tab="accueil">Accueil</button>
+        <button class="tab-button" data-tab="menu">Menu</button>
+        <button class="tab-button" data-tab="galerie">Photo</button>
+    </div>
+
+    <div class="main-layout">
+        <div class="left-column">
+            <div class="tabs">
+
+                <div class="tab-content active" data-tab="accueil">
+                    <div class="texte-container">
+                        <h1>Food Tech</h1>
+                        <p class="catch">L’avenir de la restauration se savoure aujourd’hui.</p>
+                        <p>
+                            FoodTech est un restaurant novateur à la croisée de la gastronomie et de la technologie.
+                            Ici,
+                            l’expérience culinaire est augmentée : menus interactifs, commandes via tablettes, cuisine
+                            assistée
+                            par l’intelligence artificielle et plats préparés avec une précision digne de la haute
+                            technologie.
+                        </p>
+                        <p>
+                            Nous fusionnons le meilleur du digital et de l’art culinaire pour vous offrir une expérience
+                            unique,
+                            rapide, personnalisée et éthique. Que vous soyez pressé, curieux ou gourmet, 
+                            réinvente votre
+                            façon de manger, sans compromis sur la qualité.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="tab-content" data-tab="menu">
+                    <div class="menu-content">
+                        <h2> Notre Menu Digital </h2>
+
+                        <div class="random-menu-box">
+                            <h3>Suggestion du Chef :</h3>
+                            <p id="random-menu" class="menu-description">Chargement du plat...</p>
+                            <button id="generate-menu" class="btn-generate"> Générer un nouveau plat</button>
+                        </div>
+
+                        <p class="menu-note">
+                            Découvrez chaque jour une création unique, conçue par notre intelligence culinaire
+                            augmentée.
+                        </p>
+                    </div>
+                </div>
+                <div class="tab-content" data-tab="galerie">
+                    <div class="photo-grid">
+                        <img src="assets/images/pexels-abhinavcoca-291528.jpg" alt="Plat 1" draggable="true" />
+                        <img src="assets/images/pexels-ash-craig-122861-376464.jpg" alt="Plat 2" draggable="true"/>
+                        <img src="assets/images/pexels-catscoming-406152.jpg" alt="Plat 3" draggable="true"/>
+                        <img src="assets/images/pexels-dana-tentis-118658-262959.jpg" alt="Plat 4"draggable="true" />
+                        <img src="assets/images/pexels-ella-olsson-572949-1640772.jpg" alt="Plat 5"draggable="true" />
+                        <img src="assets/images/pexels-ella-olsson-572949-1640773.jpg" alt="Plat 6"draggable="true" />
+                        <img src="assets/images/pexels-ella-olsson-572949-1640777.jpg" alt="Plat 7" draggable="true"/>
+                        <img src="assets/images/pexels-janetrangdoan-1092730.jpg" alt="Plat 8 "draggable="true" />
+                        <img src="assets/images/pexels-jonathanborba-2983101.jpg" alt="Plat 9 "draggable="true" />
+                        <img src="assets/images/pexels-robinstickel-70497.jpg" alt="Plat 10 "draggable="true" />
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img src="assets/images/depositphotos_190273388-stock-photo-people-eating-table-sharing-food.jpg"
+                alt="Présentation Food Tech" />
+        </div>
+    </div>
+
+    <div id="exit-popup-overlay" class="hidden">
+        <div id="exit-popup">
+            <button id="exit-popup-close" aria-label="Fermer la popup">&times;</button>
+            <h2>Attendez ! Avant de partir...</h2>
+            <p>Inscrivez-vous à notre newsletter pour recevoir les meilleurs menus exclusifs et surprises gourmandes
+                directement dans votre boîte mail !</p>
+            <form id="newsletter-form">
+                <input type="email" id="email-input" placeholder="Votre email" required />
+                <button type="submit">S'inscrire</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
