@@ -41,11 +41,6 @@ Simply open the `index.html` file in your browser.
 
 ---
 
-## 📸 Screenshot
-
-> *(Add a screenshot of your application here to give a preview of the interface)*
-
----
 
 ## 🧠 Sample "AI Menu" Generator
 
